@@ -1,0 +1,26 @@
+{
+  "name": "filtrcql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Compile filterx expression to CQL relation.",
+  "author": "Flavio Ambrosi <ambrosi.flavio@gmail.com>",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.22",
+    "@types/node": "^14.14.37",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4",
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jison": "^0.4.18"
+  }
+}
